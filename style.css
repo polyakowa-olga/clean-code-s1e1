@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.article-content {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa__img {
+.article-content__img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.article-content__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa {
+  .article-content {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -142,13 +142,13 @@ button {
   width: 226px;
 }
 
-.btn-del__img {
+.btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-del__img:hover {
+.btn-delete__img:hover {
   transform: rotateZ(0);
 }
 
